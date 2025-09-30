@@ -7,10 +7,16 @@ class Program
     {
         Console.WriteLine("Hello, World!");
         GreetUser("User");
+        Farewell("User");
     }
 
     static void GreetUser(string name)
     {
         Console.WriteLine($"Hello, {name}!");
+    }
+
+    static void Farewell(string name)
+    {
+        Console.WriteLine($"Goodbye, {name}!");
     }
 }
